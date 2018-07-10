@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+* {
+  user-select: none;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: Comfortaa, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background-color: #35C57C;
+}
+body .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .jasmine_html-reporter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+body #application {
+  margin-top: 30px;
+}
+body #application .dark {
+  opacity: 1;
+}
+body #application .light {
+  opacity: 0.5;
+}
+body #application .hide {
+  display: none;
+}
+body #application .show {
+  display: inline;
+}
+body #application .mini {
+  font-size: 14px;
+  margin-left: -10px;
+}
+body #application .m0 {
+  margin-left: 0px;
+}
+body #application .newtime {
+  visibility: hidden;
+}
+body #application .controlBar {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  position: relative;
+}
+body #application .controlBar:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: -35px;
+  width: 100px;
+  height: 1px;
+  border-top: 2px #227F51 solid;
+  border-bottom: 1px #45FFA1 solid;
+  opacity: 0.4;
+}
+body #application a.bttn {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+body #application a.bttn:hover {
+  color: #B21F0D; 
+}
+body #application .bttn {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+  padding: 14px 0px;
+  background-color: #FF5945;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0px 7px #B21F0D;
+  transition: 0.3s;
+}
+.start {
+  margin-right: 50px;
+}
+.reset {
+  margin-left: 50px;
+}
+
+body #application .bttn:active {
+  -webkit-transform: translateY(7px);
+  -ms-transform: translateY(7px);
+  transform: translateY(7px);
+  box-shadow: 0px 0px #a87427;
+  transition: .3s;
+  color:#B21F0D;
+}
+body #application .bttn.launched {
+  -webkit-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  transform: translateY(15px);
+  box-shadow: 0px 0px #a87427;
+  transition: .2s;
+  color: #B21F0D;}
+
+body #application .timer {
+  margin-bottom: 25px;
+}
+body #application .timer, body #application .freshTime {
+  font-size: 72px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 80px;
+  letter-spacing: 10px;
+}
+body #application .freshTime {
+  font-size: 36px;
+  margin-top: 0;
+  padding: 0 60px;
+  text-align: center;
+  letter-spacing: 0;
+}
+body #application .freshTime span {
+  cursor: pointer;
+}
+body #application .reduce, body #application .increase {
+  font-size: 50px;
+  padding: 0 !important;
+  line-height: 50px;
+  text-align: center;
+  height: 46px;
+  width: 50px;
+  letter-spacing: 0px;
+}
+body #application .reduce {
+  line-height: 40px;
+}
+body header {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #227F50;
+  letter-spacing: 10px;
+}
